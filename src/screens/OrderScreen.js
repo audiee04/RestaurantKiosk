@@ -230,7 +230,7 @@ export default function OrderScreen(props) {
                             color="textPrimary"
                             component="p"
                           >
-                            ${product.price}
+                            ₹{product.price}
                           </Typography>
                         </Box>
                       </CardContent>
@@ -245,7 +245,7 @@ export default function OrderScreen(props) {
       <Box>
         <Box>
           <Box className={[styles.bordered, styles.space]}>
-            My Order - {orderType} | Tax: ${taxPrice} | Total: ${totalPrice} |
+            My Order - {orderType} | Tax: {taxPrice}% | Total: ₹{totalPrice} |
             Items: {itemsCount}
           </Box>
           <Box className={[styles.row, styles.around]}>
