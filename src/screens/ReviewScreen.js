@@ -176,7 +176,7 @@ export default function ReviewScreen(props) {
         <Box>
           <Box className={[styles.bordered, styles.space]}>
             My Order - {orderType === 'takeout' ? 'Take out' : 'Eat in'} | Tax:
-            {taxPrice}% | Total: ₹{totalPrice} | Items: {itemsCount}
+            ₹{taxPrice} | Total: ₹{totalPrice} | Items: {itemsCount}
           </Box>
           <Box className={[styles.row, styles.around]}>
             <Button

@@ -24,6 +24,7 @@ export default function HomeScreen(props) {
             <Typography component="h5" variant="h5">
               Touch to start
             </Typography>
+            {/* <a href='/kitchen'>GO TO KITCHEN</a> */}
           </Box>
         </Box>
       </CardActionArea>
